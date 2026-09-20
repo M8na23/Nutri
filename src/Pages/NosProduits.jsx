@@ -41,7 +41,8 @@ const NosProduits = ({ onNavigate }) => {
         ))}
             <div className="mt-16 flex justify-center">
                 <img
-                src="images\image2.png"
+                
+                src={`${import.meta.env.BASE_URL}images/image2.png`}
                 alt="Illustration"
                 className=" max-w-[200px] max-h-[250px]"
                 />
@@ -49,7 +50,7 @@ const NosProduits = ({ onNavigate }) => {
                <div className="mt-16 flex justify-center">
 
                 <img
-                src="images\image3.png"
+                src={`${import.meta.env.BASE_URL}images/image3.png`}
                 alt="Illustration"
                 className=" max-w-[200px] max-h-[250px]"
                 />

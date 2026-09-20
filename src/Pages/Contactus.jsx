@@ -90,7 +90,7 @@ const Contactus = () => {
             {/* Image */}
             <div className="flex justify-center">
               <img
-                src="images/contactUs (2).png"
+                src={`${import.meta.env.BASE_URL}images/contactUs (2).png`}
                 alt="Contact Us"
                 className="max-h-[450px]"
               />
