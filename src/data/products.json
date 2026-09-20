@@ -1,0 +1,231 @@
+[
+  {
+    "id": 1,
+    "name": "NPK 20-20-20",
+    "description": "Engrais équilibré pour la croissance générale et la floraison.",
+    "composition": { "N": "20%", "P2O5": "20%", "K2O": "20%" },
+    "usage": "Convient à toutes les cultures durant le cycle végétatif : légumes, fruits, céréales.",
+    "applications": [
+      { "culture": "Foliaire", "dose": "5 à 6 kg/ha" },
+      { "culture": "Fertigation", "dose": "25 à 60 kg/ha" }
+    ],
+    "image": "/images/npk-20-20-20.png",
+    "footerNote": "Engrais universel pour toutes les phases de croissance."
+  },
+  {
+    "id": 2,
+    "name": "NPK 15-15-15",
+    "description": "Formule équilibrée universelle pour la nutrition de base des plantes.",
+    "granulometry": "1.5 mm – 5.5 mm",
+    "composition": { "N": "15%", "P2O5": "15%", "K2O": "15%" },
+    "usage": "Blé, maïs, légumineuses, arbres fruitiers. Solide : 100–300 kg/ha avant semis ou au démarrage.",
+    "applications": [
+      { "culture": "Pomme de terre", "dose": "15 à 18" },
+      { "culture": "Culture maraîchère", "dose": "6 à 10" },
+      { "culture": "Viticulture", "dose": "8 à 12" },
+      { "culture": "Arboriculture", "dose": "8 à 12" },
+      { "culture": "Agrumes", "dose": "6 à 10" },
+      { "culture": "Céréaliculture", "dose": "1,5 à 2,5" },
+      { "culture": "Culture industrielle", "dose": "6 à 10" },
+      { "culture": "Légumes secs", "dose": "3 à 4" }
+    ],
+    "image": "/images/npk-15-15-15.png",
+    "footerNote": "Une solution complète pour une croissance saine et équilibrée des plantes."
+  },
+  {
+    "id": 3,
+    "name": "Potasse 50% SOP",
+    "description": "Engrais potassique sans chlore, idéal pour les cultures sensibles au chlore.",
+    "composition": { "K2O": "50%", "SO3": "18%" },
+    "usage": "Recommandé pour maraîchage, arbres fruitiers, vigne et cultures sous serre.",
+    "applications": [
+      { "culture": "Vigne", "dose": "1 à 2 kg/application/ha" },
+      { "culture": "Arbres fruitiers", "dose": "1 kg/application/ha" },
+      { "culture": "Cultures légumières", "dose": "3 kg/application/ha" }
+    ],
+    "image": "/images/potasse-50.png",
+    "footerNote": "Sulfate de potasse pour cultures sensibles au chlore."
+  },
+  {
+    "id": 4,
+    "name": "Urée 46%",
+    "description": "Engrais azoté à libération rapide, stimulant la croissance végétative.",
+    "granulometry": "1.5 mm – 5.5 mm",
+    "composition": { "N": "46%" },
+    "usage": "Toutes les cultures : céréales, maïs, légumes, arbres fruitiers.",
+    "applications": [
+      { "culture": "Céréaliculture", "dose": "1,5 à 2 Qx/ha" },
+      { "culture": "Culture maraîchère", "dose": "2 à 3,5 Qx/ha" },
+      { "culture": "Viticulture", "dose": "5,5 à 6,5 Qx/ha" },
+      { "culture": "Arboriculture", "dose": "5,5 à 6,5 Qx/ha" },
+      { "culture": "Pomme de terre", "dose": "2 à 3 Qx/ha" },
+      { "culture": "Légumes secs", "dose": "1,5 à 2,5 Qx/ha" }
+    ],
+    "image": "/images/uree-46.png",
+    "footerNote": "L'engrais azoté le plus concentré."
+  },
+  {
+    "id": 5,
+    "name": "Acide phosphorique",
+    "description": "Source de phosphore hautement assimilable. Favorise le développement racinaire et la floraison.",
+    "composition": { "P2O5": "52–54%" },
+    "usage": "Toutes les cultures, en fertigation.",
+    "applications": [
+      { "culture": "Fertigation", "dose": "10 à 30 L/ha selon le stade" }
+    ],
+    "image": "/images/acide-phosphorique.png",
+    "footerNote": "Manipuler avec précaution (produit acide)."
+  },
+  {
+    "id": 6,
+    "name": "Potasse 60% KCL",
+    "description": "Engrais potassique concentré favorisant la résistance des cultures au stress hydrique et améliorant la qualité des fruits et légumes.",
+    "composition": { "K2O": "60%" },
+    "usage": "Recommandé pour améliorer la qualité, la fermeté et la résistance des fruits et légumes.",
+    "applications": [
+      { "culture": "Fertigation", "dose": "1 kg/100 L d'eau selon le stade" },
+      { "culture": "Nouaison", "dose": "1 kg/ha dans 100 L d'eau" },
+      { "culture": "Vigne (foliaire)", "dose": "1 kg/ha, 3 à 5 applications" },
+      { "culture": "Croissance (grosissement)", "dose": "3 kg/300 L d'eau" }
+    ],
+    "image": "/images/potasse-60-kcl.png",
+    "footerNote": "Éviter les mélanges avec les produits contenant du calcium."
+  },
+  {
+    "id": 7,
+    "name": "NPK 13-03-43",
+    "description": "Formule riche en potassium pour fructification et maturation.",
+    "composition": { "N": "13%", "P2O5": "3%", "K2O": "43%" },
+    "usage": "Maraîchage plein champ & serre, arboriculture, agrumes, pommes de terre.",
+    "applications": [
+      { "culture": "Maraîchage plein champ", "dose": "5 à 7 kg/ha" },
+      { "culture": "Sous serre", "dose": "2 à 3 kg/1000 m²" },
+      { "culture": "Pomme de terre", "dose": "3 à 5 kg/ha" },
+      { "culture": "Céréales", "dose": "6 à 8 kg/ha" },
+      { "culture": "Arboriculture", "dose": "4 à 6 kg/ha" },
+      { "culture": "Agrumes", "dose": "4 à 6 kg/ha" }
+    ],
+    "image": "/images/npk-13-03-43.png",
+    "footerNote": "Adapté aux cultures nécessitant un fort apport en potassium."
+  },
+  {
+    "id": 8,
+    "name": "MAP 12-61",
+    "description": "Source concentrée de phosphore et d'azote ammoniacal.",
+    "composition": { "N": "12%", "P2O5": "61%" },
+    "usage": "Irrigation fertilisante : maraîchage, arbres fruitiers, pépinières, vigne, céréales.",
+    "applications": [
+      { "culture": "Fertigation", "dose": "75 à 100 kg/ha" }
+    ],
+    "image": "/images/map-12-61.png",
+    "footerNote": "Idéal pour stimuler l'enracinement."
+  },
+  {
+    "id": 9,
+    "name": "Sulfate de magnésium hydraté",
+    "description": "Fournit du magnésium et du soufre, essentiels pour la photosynthèse.",
+    "composition": { "MgO": "16%", "SO3": "32%" },
+    "usage": "Blé, maïs, agrumes, maraîchage, olivier.",
+    "applications": [
+      { "culture": "Foliaire", "dose": "3 à 5 kg/ha" },
+      { "culture": "Irrigation", "dose": "25 à 50 kg/ha" }
+    ],
+    "image": "/images/sulfate-mg.png",
+    "footerNote": "Corrige rapidement les carences en magnésium."
+  },
+  {
+    "id": 10,
+    "name": "ELMIZANE Phosphate Minéral",
+    "description": "Phosphate naturel riche en calcium et phosphore à libération lente.",
+    "composition": { "CO2": "6%", "P2O5": "30%", "SO3": "10%", "CaO": "50%", "MgO": "1%", "K2O": "0.1%", "Organic": "0.15%", "P2O5 soluble": "20%" },
+    "usage": "Céréales, maraîchage, fruitiers, sols acides pauvres en phosphore.",
+    "applications": [
+      { "culture": "Solide", "dose": "200 à 500 kg/ha avant semis" }
+    ],
+    "image": "/images/phosphate-mizane.png",
+    "footerNote": "Source naturelle et durable de phosphore."
+  },
+  {
+    "id": 11,
+    "name": "CERYS 10-5-10-10",
+    "description": "Engrais équilibré enrichi en oligo-éléments et acides aminés.",
+    "composition": { "N": "10%", "P2O5": "5%", "K2O": "10%", "SO3": "10%" },
+    "usage": "Croissance et floraison pour légumes, arbres fruitiers et céréales.",
+    "applications": [
+      { "culture": "Foliaire", "dose": "3 à 5 L/ha" },
+      { "culture": "Irrigation", "dose": "20 à 40 L/ha" }
+    ],
+    "image": "/images/cerys-10-5-10-10.png",
+    "footerNote": ""
+  },
+  {
+  "id": 12,
+  "name": "MAP 12-52-00",
+  "description": "Engrais phosphaté riche en phosphore hautement assimilable. Favorise l’implantation, stimule la croissance racinaire et améliore la vigueur au démarrage.",
+  "granulometry": "1.5 mm – 5.5 mm",
+  "composition": {
+    "N": "12%",
+    "P2O5": "52%"
+  },
+  "usage": "Engrais starter pour maïs, pomme de terre, colza, céréales et cultures de printemps. Idéal en localisé ou en plein pour stimuler la levée et renforcer la résistance au stress.",
+  "applications": [
+    { "culture": "Localisation au semis", "dose": "30 à 60 kg/ha (éviter contact direct avec la semence)" },
+    { "culture": "Cultures de printemps", "dose": "100 à 200 kg/ha" },
+    { "culture": "Céréales d'hiver", "dose": "100 à 150 kg/ha" }
+  ],
+  "image": "/images/map-12-52.png",
+  "footerNote": "Engrais starter performant améliorant la précocité, la vigueur et la résistance aux stress."
+  },
+  {
+  "id": 13,
+  "name": "PK 20-25",
+  "description": "Engrais de fond granulé associant phosphore et potasse. Favorise le développement racinaire, la mise en réserve et améliore la résistance des plantes à la sécheresse.",
+  "granulometry": "1.5 mm – 5.5 mm",
+  "composition": {
+    "P2O5": "20%",
+    "K2O": "25%"
+  },
+  "usage": "Arbres fruitiers, cultures maraîchères, céréales et betteraves. Excellent pour la fertilisation de base et l'entretien de la fertilité du sol.",
+  "applications": [
+    { "culture": "Arbres fruitiers", "dose": "150 à 300 kg/ha" },
+    { "culture": "Maraîchage", "dose": "100 à 250 kg/ha" },
+    { "culture": "Céréales", "dose": "100 à 200 kg/ha" }
+  ],
+
+  "image": "/images/pk-20-25.png",
+  "footerNote": "Phosphore et potasse disponibles pour un enracinement solide et une meilleure résilience des cultures."
+},
+{
+  "id": 14,
+  "name": "TSP 0-0-46",
+  "description": "Superphosphate triple très riche en phosphore soluble. Favorise le développement racinaire, la vigueur au démarrage et la floraison. Engrais de fond très utilisé pour les cultures exigeantes.",
+  "granulometry": "1.5 mm – 5.5 mm",
+  "composition": {
+    "K2O": "46%"
+  },
+  "usage": "Engrais de base pour céréales, colza, betterave, pommes de terre, luzerne et cultures exigeantes en phosphore.",
+  "applications": [
+    { "culture": "Toutes cultures", "dose": "100 à 400 kg/ha selon besoins et objectif de rendement" }
+  ],
+  "image": "/images/tsp-0-0-46.png",
+  "footerNote": "Engrais de fond incontournable pour assurer une nutrition phosphatée optimale et durable."
+},
+{
+  "id": 15,
+  "name": "Sulfate de Fer",
+  "description": "Engrais correcteur pour sols calcaires. Abaisse le pH, fournit du fer et du soufre, et améliore l’assimilation des autres nutriments par la plante. Efficace seulement en sols acides.",
+  "composition": {
+    "Fe": "18%",
+    "SO3": "27%"
+  },
+  "usage": "Appliquer pour corriger les carences en fer et améliorer la disponibilité des micronutriments dans les sols calcaires.",
+  "applications": [
+    { "culture": "Sols très calcaires", "dose": "400 à 600 kg/ha" }
+  ],
+  "image": "/images/sulfate-fer.png",
+  "footerNote": "Mobilise les micronutriments et optimise l’absorption par les plantes. Usage recommandé sur sols calcaires avec problèmes de pH élevé."
+}
+
+
+
+]

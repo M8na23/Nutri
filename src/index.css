@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer utilities{
+    .bg-navbar{
+        @apply bg-gradient-to-l from-[#56c794ff] via-[#56c794ff] to-[#56c794ff];
+    }
+    .btn-primary{
+        @apply rounded-md border-2 border-primary bg-primary px-4 py-2 text-sm text-ColorForText font-bold transition-colors duration-300 hover:bg-primary/90;
+    }
+    .btn-outline{
+        @apply rounded-md border-2 border-ColorForText px-4 py-2 text-sm text-ColorForText font-bold dark:text-white dark:border-white transition-colors duration-300;
+    }
+}
