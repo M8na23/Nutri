@@ -4,10 +4,10 @@ import productsData from "../data/products.json";
 const ProductPage = ({ productId = 5 }) => {
   const [product, setProduct] = useState(null);
 
-useEffect(() => {
-  const selected = productsData.find((item) => item.id === Number(productId));
-  setProduct(selected);
-}, [productId]);
+  useEffect(() => {
+    const selected = productsData.find((item) => item.id === Number(productId));
+    setProduct(selected);
+  }, [productId]);
 
   if (!product) {
     return (
@@ -40,11 +40,14 @@ useEffect(() => {
               Composition
             </h2>
             <ul className="text-gray-700 dark:text-gray-300 space-y-1">
-              <li>N : {product.composition.N}</li>
-              <li>P₂O₅ : {product.composition.P2O5}</li>
-              <li>K₂O : {product.composition.K2O}</li>
+              {Object.entries(product.composition).map(([key, value]) => (
+                <li key={key}>
+                  {key}: {value}
+                </li>
+              ))}
             </ul>
           </div>
+
           {product.granulometry && (
             <div>
               <h2 className="text-2xl font-semibold text-primary mb-2">

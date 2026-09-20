@@ -99,6 +99,8 @@ const Navbar = ({ onNavigate }) => {
                                                     <li onClick={() => onNavigate("products",1)} className="cursor-pointer hover:text-secondary transition-colors duration-200">NPK 20-20-20</li>
                                                     <li onClick={() => onNavigate("products",3)} className="cursor-pointer hover:text-secondary transition-colors duration-200">Potasse 50% SOP</li>
                                                     <li onClick={() => onNavigate("products",5)} className="cursor-pointer hover:text-secondary transition-colors duration-200">Acide phosphorique</li>
+                                                    <li onClick={() => onNavigate("products",15)} className="cursor-pointer hover:text-secondary transition-colors duration-200">Sulfate de Fer</li>
+
                                                 </ul>
                                             </div>
 
