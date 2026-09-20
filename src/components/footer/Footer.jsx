@@ -47,7 +47,7 @@ const Footer = ({ onNavigate }) => {
 
                             <a href="/#home" className='flex items-center '>
                             <img
-                            src="images/logo.png"
+                            src={`${import.meta.env.BASE_URL}images/logo.png`}
                             alt="NutriPhat Logo"
                             className="w-10 h-12 object-contain"
                             />

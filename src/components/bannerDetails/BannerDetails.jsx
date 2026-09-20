@@ -37,7 +37,7 @@ const BannerDetails = ({reverse,onNavigate }) => {
                     data-aos-once="true"
                     className={reverse ? "order-1":""}>
                     <img 
-                        src="images\farmeracueil.png" 
+                        src={`${import.meta.env.BASE_URL}images/farmeracueil.png`} 
                         alt="not found" 
                         className='mx-auto w-full p-4 md:max-w-[450px]'/>
                 </div>

@@ -31,7 +31,7 @@ const Hero = () => {
                     data-aos-duration="400"
                     data-aos-once="true"
                     className='flex justify-center md:justify-end mx-auto max-w-xs p-11'>
-                    <img src="/images/image1.png" alt="Not Found" className="w-full max-w-sm object-contain " />
+                    <img src={`${import.meta.env.BASE_URL}images/image1.png`} alt="Not Found" className="w-full max-w-sm object-contain " />
                 </div>
                 
 

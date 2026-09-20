@@ -77,7 +77,7 @@ const Navbar = ({ onNavigate }) => {
                                     {/* Left image */}
                                     <div className="overflow-hidden rounded-xl ">
                                         <img 
-                                            src="images/farmerusingfertilizer.png" 
+                                            src={`${import.meta.env.BASE_URL}images/farmerusingfertilizer.png`} 
                                             alt="not found" 
                                             className="max-h-[350px] w-full duration-300 -mt-14 rounded-xl"
                                         />
